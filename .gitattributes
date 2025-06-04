@@ -1,0 +1,17 @@
+# Don't exclude Jupyter Notebooks, but allow correct language detection
+*.ipynb linguist-language=Jupyter Notebook
+
+# Classify SQL files correctly
+*.sql linguist-language=SQL
+
+# Classify JSON files correctly
+*.json linguist-language=JSON
+
+# Markdown is for documentation, not main project language
+*.md linguist-documentation
+
+# Optional: Classify Python scripts if added later
+*.py linguist-language=Python
+
+# Optional: Classify PNG images as assets
+*.png linguist-generated
