@@ -4,7 +4,7 @@
 # Classify SQL files correctly
 *.sql linguist-language=SQL
 
-# Classify JSON files correctly
+# Classify JSON files correctly   
 *.json linguist-language=JSON
 
 # Markdown is for documentation, not main project language
